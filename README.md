@@ -1,4 +1,4 @@
-# ☁️ Azure Virtual Network Setup — Project 1
+# ☁️ Azure Virtual Network Setup
 
 ## 📌 Project Overview
 This project demonstrates the setup of a basic Azure Virtual Network (VNet) 
