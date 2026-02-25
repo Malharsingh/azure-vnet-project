@@ -11,11 +11,11 @@ web-facing and internal database resources.
 ### Network Design
 | Component | Value |
 |-----------|-------|
-| VNet Name | vnet-project-001 |
+| VNet Name | vnet-project |
 | Address Space | 10.0.0.0/16 |
 | Web Subnet | 10.0.1.0/24 |
 | DB Subnet | 10.0.2.0/24 |
-| Region | East US |
+| Region | Central Canada |
 
 ## 🔐 Network Security Groups
 
@@ -34,8 +34,8 @@ web-facing and internal database resources.
 
 | VM Name | Subnet | Public IP | Purpose |
 |---------|--------|-----------|---------|
-| vm-web-01 | web-subnet | Yes | Web Server (public facing) |
-| vm-db-01 | db-subnet | No | Database Server (internal only) |
+| vm-web | web-subnet | Yes | Web Server (public facing) |
+| vm-db | db-subnet | No | Database Server (internal only) |
 
 ## ✅ Testing & Validation
 - Successfully SSH'd into vm-web-01 via public IP
